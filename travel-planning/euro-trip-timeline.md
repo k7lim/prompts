@@ -3,6 +3,8 @@
 <travel-day><flight>July 13 2025, Honolulu HNL 2:00pm (local time) - Los Angeles LAX 10:35pm (local time)</flight>
     <flight>July 14 2025, Los Angeles LAX 1:08am (local time) - Philadelphia PHL 9:16am (local time)
 </flight>
+<tbd>PHL airport to Hyatt Centric Center City Philadelphia
+</tbd>
 </travel-day>
 
 <hotel-stay>Mon, Jul 14 - Wed, Jul 16
@@ -19,7 +21,9 @@ Philadelphia, PA 19103
 <meetup>Kai and Lydia live in Rittenhouse Square. Abbie, Rhea, and I are in Fairmount near the art museum, and Zen and Wai are in West Philly.
 </meetup>
 
-<travel-day><train line="amtrak">Philadelphia, PA (PHL)
+<travel-day>
+<tbd>Hyatt Centric Center City Philadelphia to 30th St Amtrak</tbd>
+<train line="amtrak">Philadelphia, PA (PHL)
 648 Keystone Service
 
 11:50 AM, Wed, Jul 16
@@ -27,7 +31,9 @@ Philadelphia, PA 19103
 New York, NY (NYP)
 648 Keystone Service
 
-1:15 PM, Wed, Jul 16</train></travel-day>
+1:15 PM, Wed, Jul 16</train>
+<tbd>NYP to Hyatt Place New York/Midtown-South</tbd>
+</travel-day>
 
 <hotel-stay>
 Wed, Jul 16 - Thu, Jul 17
@@ -47,7 +53,7 @@ Wednesday, July 16 7PM show
 Belasco Theater NYC</ticket>
 
 <travel-day>
-<tbd>please advise! Transit from Hotel to EWR (presume taxi/rideshare/train?)</tbd>
+<tbd>Transit from Hotel to EWR (presume taxi/rideshare/train?)</tbd>
 <group-config size="4">Mom, Dad, Daughter, +Grandma (meet at EWR)</group-config>
 <flight>Flight UA54 EWR to CDG
 Departure
@@ -60,22 +66,17 @@ Friday
 
 Flight duration: 7h 45m
 </flight>
-<tbd>please advise! Transit from CDG to Hotel (grandmother prefers to book in advance)</tbd>
+<tbd>please advise! Transit from CDG to Hotel</tbd>
 </travel-day>
 
 <hotel-stay>
 Fri, Jul 18 - Tue, Jul 22
-Hôtel du Louvre
-Check-in:
-04:00 PM
-Checkout:
-11:00 AM
+Le Roch Hotel</hotel-stay>
 
-Place Andre Malraux
-Paris, IF 75001
-France</hotel-stay>
-<special-plan>Friday late hours at Louvre Museum</special-plan>
-<weekend-goal>Meet with our friends (couple with two 10 year old-ish kids, who live near la defense, TBD their plan)</weekend-goal>
+<friend-hangout>marie gives us a tour of the louvre sunday morning, tickets 11:30</friend-hangout>
+<tbd>before/after louvre hangout, 4 adults and 3 kids ages 7-9</tbd>
+
+<tbd>hotel to l'atelier de joel robuchon</tbd>
 <special-meal>L'ATELIER DE JOËL ROBUCHON - ST-GERMAIN
 Reservation confirmed
 Mon, July 21, 2025
@@ -84,6 +85,7 @@ Mon, July 21, 2025
 </special-meal>
 
 <travel-day>
+<tbd>Le Roch Hotel to Gare De Lyon</tbd>
 <group-config size="3">Mom, Dad, Daughter <context> Grandma flies solo out of Paris </context></group-config>
 
 <pre-trip-meal>
@@ -95,6 +97,7 @@ Tuesday, July 22
 Paris Gare De Lyon to Barcelone Sants
 Outbound: Tuesday 22 July 2025 at 14:42
 </train>
+<tbd>Barcelona Sants station to Hyatt Regency Barcelona Tower</tbd>
 </travel-day>
 
 <hotel-stay>
@@ -108,7 +111,7 @@ Checkout:
 Avinguda de la Granvia de l’Hospitalet, 144
 Barcelona, 08907
 Spain</hotel-stay>
-
+<tbd>Hyatt Regency Barcelona Tower to Sagrada Familia</tbd>
 <museum-ticket>
 Sagrada Família: Basílica
 24/07/2025 10:30
@@ -116,9 +119,9 @@ Guided tour: English
 24/07/2025 10:45
 </museum-ticket>
 
-<evening-goal>Meet with our friends (couple with two 10 year old-ish kids, who live near Sarrià-Sant Gervasi , TBD their plan)</evening-goal>
+<evening-goal><tbd>Meet with our friends (couple with two 10 year old-ish kids, who live near Sarrià-Sant Gervasi , TBD their plan)</tbd></evening-goal>
 
-<travel-day><tbd>please advise! Transit from hotel to BCN Airport(presume rideshare/taxi/train?)</tbd>
+<travel-day><tbd>Transport from Hyatt Regency Barcelona Tower to BCN Airport</tbd>
 <flight>Barcelona (Terminal 2C) to Berlin Brandenburg (Terminal 1)
 EJU7174	flight
 Departs:	Fri 25 Jul 2025 07:40
@@ -126,11 +129,12 @@ Arrives:	Fri 25 Jul 2025 10:25
 Bag drop opens:	Fri 25 Jul 2025 05:40
 Bag drop closes:	Fri 25 Jul 2025 07:00
 Check in closes 40 mins before departure</flight>
-<tbd>airport-to-friends, they live near a train station</tbd>
+<tbd>BER airport to Richardstraße 105, 12043 Berlin, Germany</tbd>
 </travel-day>
 
+<home-stay>Richardstraße 105, 12043 Berlin, Germany</home-stay>
 <social-goal>
-hang out with our local berliner friends, chill after a lot of scheduled time, boardgames and local food (i believe they're in mitte or kreuzberg)
+hang out with our local berliner friends, chill after a lot of scheduled time, boardgames and local food, klunkerkranich
 </social-goal>
 
 <special-meal>We've booked a table for the four of us for Saturday 26 Jul at Hallmann & Klee (https://www.hallmann-klee.de/) – it's really close to where we live, and it's such a friendly place.
@@ -138,7 +142,7 @@ hang out with our local berliner friends, chill after a lot of scheduled time, b
 </special-meal>
 
 <travel-day>
-<tbd>friends-to-airport, they live near a train station</tbd>
+<tbd>Richardstraße 105 to BER airport</tbd>
 
 <flight>
 Aer Lingus Flight 337
