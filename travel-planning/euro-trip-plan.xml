@@ -1,0 +1,610 @@
+<prompt>
+  <persona>
+    <role>You are a Hyper-local travel guide and trip planner, adept at spotting possible issues and finding hidden gems that speak to someone's personal loves and interests</role>
+    <goal>Create a detailed, day-by-day itinerary for a multi-city family vacation in July 2025, balancing fixed plans with flexible options and providing specific, practical advice on logistics, food, and activities. The itinerary should be tailored to the unique "personas" of the family. Make sure to look hyper-local, we should not miss things that are on our list (or should be, given our personae) that are short walks from our commitments (e.g. hotels, ticketed spots). Specially note items known to be frugal or good bang for the buck (willing to splurge if it's truly special, that's still good value)</goal>
+  </persona>
+  <travelers>
+    <traveler id="dad">
+      <name>Dad</name>
+      <age>mid-40s (44)</age>
+      <description>The planner. Preparing to homeschool his daughter, looking for teaching moments throughout the trip. Enjoys long walks, is a huge soccer fan (FC Barcelona, love to catch a women's Euro cup match at a bar that is welcoming and energetic for this stuff!), wants to practice local languages, and is on a personal quest to find a great kouign amann in Paris. Loves tennis, socializing, pop music, pourover coffee, green tea, coding/AI, beer, board games, sneakers.</description>
+      <interests>Scientific or cultural history, soccer, local languages, kouign amann, tennis, walking, socializing, pop music, pourover coffee, green tea, coding/AI, beer, board games, sneakers.</interests>
+    </traveler>
+    <traveler id="mom">
+      <name>Wife</name>
+      <age>mid-40s (41)</age>
+      <description>Enjoys fine dining, excellent coffee, good wine, nice grocery stores, Formula 1, Asian food, street photography, photo booths, live music.</description>
+      <interests>Fine dining, excellent coffee, good wine, nice grocery stores, Formula 1, Asian food, street photography, photo booths, live music.</interests>
+    </traveler>
+    <traveler id="daughter">
+      <name>Daughter</name>
+      <age>10yo (9)</age>
+      <description>A joyful, active kid who loves aerial silks and fun playgrounds. Into fashion, vintage shopping, kid-friendly fragrance/beauty. Loves Studio Ghibli and Sanrio. Loves gummy candies. Enjoys eating steak, cycling, reading fiction, arts and crafts, cooking breakfast, eating noodles, trendy desserts, tactile experiences (playing with sand/slime), popsicles, card games, jewelry.</description>
+      <interests>Aerial silks, fun playgrounds, fashion, vintage shopping, fragrance/beauty (kid-friendly), Studio Ghibli, Sanrio, gummy candies, steak, cycling, reading fiction, arts and crafts, cooking breakfast, noodles, trendy desserts, tactile experiences, popsicles, card games, jewelry.</interests>
+    </traveler>
+    <traveler id="grandmother">
+      <name>Grandmother</name>
+      <description>Joins for Paris leg only. Loves "fancy" things, especially cheese and wine. Enjoys a good pain au chocolat but has limited mobility and cannot walk long distances. Wants high-end grocery experiences.</description>
+      <interests>Fancy things, cheese, wine, pain au chocolat, high-end grocery experiences.</interests>
+    </traveler>
+  </travelers>
+  <overall_trip_goals>
+    <logistics>Advise on the best mode of transport for all "TBD" travel legs.</logistics>
+    <homeschooling>Weave in educational moments related to history and science.</homeschooling>
+    <language>Provide opportunities to use practiced phrases.</language>
+    <pacing>Adjust to the time zone from the US East Coast and build in downtime in the later parts of the trip (Berlin).</pacing>
+    <goal>Review provided list of recommendations (from the Blackbird Spyplane blog) and suggest a few options that would best suit the family's personas (e.g., a educational site for homeschooling, a cool vintage store for daughter, a unique park).</goal>
+  </overall_trip_goals>
+
+  <trip_segments>
+    <segment id="philadelphia">
+      <city>Philadelphia</city>
+      <dates>Mon, Jul 14 - Wed, Jul 16</dates>
+      <travelers>Dad, Wife, Daughter</travelers>
+      <stay>Hyatt Centric Center City, 1620 Chancellor Street. Check-in: 04:00 PM, Checkout: 11:00 AM.</stay>
+      <fixed_plans>Arrive PHL @ 9:16 AM on Jul 14 (from LAX 1:08am local time, following HNL 2:00pm - LAX 10:35pm on July 13).</fixed_plans>
+      <goals_and_questions>
+        <goal>Create a 2-day itinerary focused on adjusting to the time zone. Prioritize outdoor time.</goal>
+        <goal>Design a "National Treasure" movie-themed walking tour, covering key historical sites like the Liberty Bell and Independence Hall.</goal>
+        <goal>Suggest options for meeting up with local cousins (Kai and Lydia in Rittenhouse Square, Abbie, Rhea, and I in Fairmount near the art museum, Zen and Wai in West Philly). Staying somewhere in the center city, old city, Rittenhouse, or Fairmount area would be pretty close to both Kai and me and to all the major attractions—Liberty Bell, both rivers, museums, and lots of good restaurants. West Philly is nice too, but a little less to do there—more university stuff and studenty with both Penn and Drexel. Abbie and I lived in Fishtown for a long time before we moved to Fairmount, and Fishtown and Northern Liberties are both trendy and full of great restaurants and Airbnbs. A little further from where we live now but definitely happening spots!</goal>
+        <goal>Recommend a great place for dinner on one of the nights. (Have a recommendation for "The Good King." Is it suitable, or is there a better option?)</goal>
+        <tbd_logistics>What is the best way to travel from our Philadelphia hotel to our NYC hotel on Wednesday, July 16? (Train?)</tbd_logistics>
+      </goals_and_questions>
+    </segment>
+
+    <segment id="new_york_city">
+      <city>New York City</city>
+      <dates>Wed, Jul 16 - Thu, Jul 17</dates>
+      <travelers>Dad, Wife, Daughter</travelers>
+      <stay>Hyatt Place New York/Midtown-South, 52 West 36th Street. Check-in: 03:00 PM, Checkout: 12:00 PM.</stay>
+      <fixed_plans>Broadway Show: "Maybe Happy Ending" at the Belasco Theater, Wed @ 7 PM. Depart from EWR on UA54 @ 9:10 PM on Jul 17.</fixed_plans>
+      <goals_and_questions>
+        <goal>Wednesday: Suggest a relaxed pre-theater plan. Daughter wants to visit the M&M Store. What is a good time to arrive at the Belasco Theater? Where can we buy melatonin drops nearby to help with sleep?</goal>
+        <goal>Thursday: Mother-in-law is on a layover at EWR and wants us to meet her at an airport lounge well ahead of our flight. Have three groups of friends potentially to see: one in Scarsdale, one at 56th & 1st (with a new baby), and one near Lincoln Center. Help decide on a realistic plan for Thursday. Is there time to see one group of friends before heading to EWR? Have a fond memory of a Georgian restaurant Oda House on the UES visited with the Lincoln Center friends.</goal>
+        <tbd_logistics>What is the most efficient way to get from our hotel to EWR to meet my mother-in-law, likely in the late afternoon? (Presume taxi/rideshare/train?)</tbd_logistics>
+      </goals_and_questions>
+    </segment>
+
+    <segment id="paris">
+      <city>Paris</city>
+      <dates>Fri, Jul 18 - Tue, Jul 22</dates>
+      <travelers>Dad, Wife, Daughter, and Grandmother (Grandma joins at EWR for the flight, UA54 EWR to CDG, Departure July 17, 21:10, Arrival July 18, 10:55, Flight duration: 7h 45m)</travelers>
+      <stay>Hôtel du Louvre, Place Andre Malraux. Check-in: 04:00 PM, Checkout: 11:00 AM.</stay>
+      <fixed_plans>Fri, Jul 18: Arrive CDG @ 10:55 AM. Plan for late hours at the Louvre Museum. Mon, Jul 21: Lunch reservation at L'ATELIER DE JOËL ROBUCHON @ 11:30 AM for 4 guests. Tue, Jul 22: Lunch reservation at Le Train Bleu @ 11:30 AM for 3 guests (Grandmother has departed). Depart on TGV INOUI 9715 from Gare De Lyon @ 2:42 PM (Paris Gare De Lyon to Barcelone Sants).</fixed_plans>
+      <goals_and_questions>
+        <goal>Create an itinerary that balances the interests of all four travelers, considering the grandmother's limited mobility.</goal>
+        <activities>Weave in places from interest list, including vintage shops for daughter (e.g., PRE-LOVED by CrushON), a visit to La Grande Épicerie de Paris for the grandmother, and Dad's hunt for the perfect kouign amann (Aki Boulangerie?).</activities>
+        <friends>Meeting friends (a couple with two ~10-year-old kids) who live near La Défense over the weekend. Suggest a fun, kid-friendly activity for combined groups.</friends>
+        <sightseeing>What are some "secret spots" or less-crowded locations to get great photos of the Eiffel Tower?</sightseeing>
+        <tbd_logistics>What is the best pre-booked transit option from CDG to our hotel? Grandmother would prefer not to deal with public transport upon arrival.</tbd_logistics>
+      </goals_and_questions>
+    </segment>
+
+    <segment id="barcelona">
+      <city>Barcelona</city>
+      <dates>Tue, Jul 22 - Fri, Jul 25</dates>
+      <travelers>Dad, Wife, Daughter (Grandmother has departed)</travelers>
+      <stay>Hyatt Regency Barcelona Tower. Check-in: 03:00 PM, Checkout: 12:00 PM. Avinguda de la Granvia de l’Hospitalet, 144, Barcelona, 08907.</stay>
+      <fixed_plans>Thu, Jul 24: Sagrada Família guided tour @ 10:30 AM (English guided tour at 10:45). Fri, Jul 25: Flight from BCN to Berlin @ 7:40 AM (EJU7174 flight, Departs: Fri 25 Jul 2025 07:40, Arrives: Fri 25 Jul 2025 10:25, Bag drop opens: Fri 25 Jul 2025 05:40, Bag drop closes: Fri 25 Jul 2025 07:00, Check in closes 40 mins before departure).</fixed_plans>
+      <goals_and_questions>
+        <goal>Our hotel is not in the city center. Provide suggestions for things to do near the hotel and advise on the most efficient ways to get to central Barcelona.</goal>
+        <goal>Main goal here is to relax and let local friends (couple with two ~10-year-old kids near Sarrià-Sant Gervasi) show us around. Suggest one or two flexible activity ideas we could propose to them.</goal>
+        <goal>If we have spare time, how can we best incorporate places from our interest map (e.g., Nomad Coffee, Mahalo Vintage)?</goal>
+        <goal>As a huge soccer fan, is there anything FC Barcelona-related Dad can realistically do in this short time?</goal>
+        <tbd_logistics>What is the best way to get from our hotel to BCN airport for a 7:40 AM flight? (Presume rideshare/taxi/train?)</tbd_logistics>
+      </goals_and_questions>
+    </segment>
+
+    <segment id="berlin">
+      <city>Berlin</city>
+      <dates>Fri, Jul 25 - Tue, Jul 29</dates>
+      <travelers>Dad, Wife, Daughter</travelers>
+      <stay>No hotel provided, assume staying with friends or flexible accommodation.</stay>
+      <fixed_plans>Arrival BER @ 10:25 AM on Jul 25. Departure BER @ 9:40 PM on Jul 29 (Aer Lingus Flight 337 to Dublin, arriving DUB @ 11:00 PM).</fixed_plans>
+      <goals_and_questions>
+        <goal>A very relaxed and flexible schedule focused on spending time with local friends (presumably in Mitte or Kreuzberg), playing board games, and eating local food. Chill after a lot of scheduled time.</goal>
+        <goal>watch women's euro final and the belgian grand prix Sunday, July 27 on tv at a cool place for families</goal>
+        <interests>Love board games and have previously enjoyed biking to the Brandenburg Gate and the old Tempelhof airfield park.</interests>
+
+        <tbd_logistics>Airport-to-friends and friends-to-airport transit (they live near a train station).</tbd_logistics>
+      </goals_and_questions>
+    </segment>
+
+    <segment id="dublin">
+      <city>Dublin</city>
+      <dates>Tue, Jul 29 - Wed, Jul 30</dates>
+      <travelers>Dad, Wife, Daughter</travelers>
+      <stay>Hyatt Centric The Liberties Dublin. Check-in: 03:00 PM, Checkout: 12:00 PM. Dean Street, Dublin, D08 W3X7.</stay>
+      <fixed_plans>Arrive DUB @ 11:00 PM on Jul 29. Depart DUB @ 1:00 PM on Jul 30 (Aer Lingus flight 61 to SFO, arriving SFO 3:55 PM).</fixed_plans>
+      <goals_and_questions>
+        <goal>Design a "mini-taste of Dublin" for Wednesday morning. Goal is to experience a bit of Dublin charm without a packed schedule.</goal>
+        <goal>Recommend a place for a classic Irish breakfast and a spot to buy a souvenir keychain.</goal>
+        <goal>The route should be efficient and logistically simple, keeping in mind our path from The Liberties hotel to the airport for our 1:00 PM flight.</goal>
+        <tbd_logistics>What is the best way to get from the hotel to the airport? (Ideally shuttle?)</tbd_logistics>
+      </goals_and_questions>
+    </segment>
+  </trip_segments>
+</prompt>
+
+<context>
+# Places already on our map
+## Paris
+
+Le Paprika: 28 avenue Trudaine, 75009 Paris
+
+Musée du Parfum: 9 Rue Scribe, 75009 Paris (Fragonard Perfume Museum)
+
+Le Village: 25 Rue Royale, 75008 Paris (Le Village Royal)
+
+Gare de Lyon: 4 Place Louis Armand, 75012 Paris
+
+Aki Boulangerie: 16 Rue Sainte-Anne, 75001 Paris (that whole area has great asian food)
+
+Hôtel du Louvre - The Unbound Collection by Hyatt: 172 Rue de Rivoli, Place André Malraux, 75001 Paris
+
+Télescope Café: 5 Rue Villedo, 75001 Paris
+
+Jardin du Luxembourg: Rue de Médicis - Rue de Vaugirard, 75006 Paris
+
+Louvre Museum: Rue de Rivoli, 75001 Paris
+
+Sous les Amandiers: 17 Rue des Martyrs, 75009 Paris
+
+La Grande Épicerie de Paris: 38 Rue de Sèvres, 75007 Paris
+
+Androuet: 134 Rue Mouffetard, 75005 Paris
+
+Jardin d'enfants: Based on the coordinates and typical naming, this is likely a public children's garden/playground. Specific address cannot be determined without more context, as there are many "Jardin d'enfants" in Paris. The coordinates point to a location in the 16th arrondissement, likely near Jardin du Ranelagh.
+
+Mariage Frères: 30 Rue du Bourg Tibourg, 75004 Paris (One of their main stores, based on proximity to original coordinates)
+
+PRE-LOVED by CrushON - Vintage Shop: 11 Rue des Petits Champs, 75001 Paris
+
+Musée des Arts Décoratifs: 107 Rue de Rivoli, 75001 Paris
+
+Chinemachine: 100 Rue des Martyrs, 75018 Paris
+
+Ol'Digger Shop: 20 Rue des Envierges, 75020 Paris
+
+Untucked friperie: 122 Rue de Charonne, 75011 Paris
+
+## Barcelona
+
+Hyatt Regency Barcelona Tower: Avinguda de la Granvia de l'Hospitalet, 144, 08907 L'Hospitalet de Llobregat, Barcelona
+
+LA PAPA Aribau: Carrer d'Aribau, 92, 08036 Barcelona
+
+Nomad Coffee Petit Nomad: Passatge de Sert, 12, 08003 Barcelona
+
+Nomad Coffee Bar (ex Coffee Lab): Carrer de Pujades, 95, 08005 Barcelona
+
+SlowMov: Carrer de Luis Antúnez, 8, 08006 Barcelona
+
+Three Marks Coffee: Carrer d'Ausiàs Marc, 151, 08013 Barcelona
+
+Barcelona-Sants: Plaça dels Països Catalans, 1, 08014 Barcelona
+
+Lodetto Café: Carrer de Valldonzella, 36, 08001 Barcelona
+
+Morrow Coffee: Carrer de la Diputació, 269, 08007 Barcelona
+
+Mahalo Vintage Raval: Carrer de Joaquín Costa, 38, 08001 Barcelona
+
+Mahalo Vintage Tallers 63: Carrer dels Tallers, 63, 08001 Barcelona
+
+Basílica de la Sagrada Família: Carrer de Mallorca, 401, 08013 Barcelona
+
+Mahalo Vintage Tallers: Carrer dels Tallers, 21, 08001 Barcelona
+
+Mahalo Vintage Comtal: Carrer del Comtal, 13, 08002 Barcelona
+
+Bar Bodega Can Ros: Carrer de Roger de Flor, 303, 08025 Barcelona
+
+Pista de basquet playa bogatell: Passeig Marítim del Bogatell, 08005 Barcelona</context>
+
+<context>recs from blackbird spyplane:
+
+Here are the travel recommendations from the provided text, organized by city with repeat mentions moved to the top of each category.
+
+### **Barcelona**
+
+#### **Food & Drink**
+
+* **Bar Brutal:** A wine bar with great food and excellent tapas. Multiple users recommend it, with one noting a lovely server.
+* **Cova Fumada:** Recommended for lunch.
+* **Xemei:** Italian restaurant.
+* **Gresca:** Catalan restaurant.
+* **Monochrom:** Restaurant.
+* **Anima del Vi:** A wine bar with some food.
+* **Ca l'Estevet:** Catalan food, rated 10/10.
+* **Cañete:** Luxury tapas.
+* **Franca:** A new restaurant; mention you're a "friend" when you visit.
+* **Xerta:** Fine dining in a relaxed atmosphere with an open kitchen. The meal was described as an "experience" and potentially the "best in my life."
+* **Tapeo:** Incredible tapas; the sea bass ceviche and fried anchovies are recommended.
+* **Fismuler:** Modern Spanish food with a great interior design. The razor clams are noted as a highlight.
+* **Direkte Boqueria:** An "insane experience" with some hit-or-miss dishes.
+* **Pinocho's Spot in Mercat de Boqueria:** Known for the best chickpeas and perfect seafood.
+* **Llamber:** Located in a touristy area, but their anchovies on sweet bread are worth a visit. Portions can be large.
+* **Boca Grande:** Described as an "elevated Spanish Cheesecake Factory" on a beautiful street.
+* **Colmado Murria:** A historic pantry and food store from 1898, great for gifts.
+
+#### **Coffee**
+
+* **Nomad:** Recommended for coffee.
+
+#### **Cocktail Bars**
+
+* **Tandem:** A narrow, elegant cocktail bar with a "sick logo."
+* **Dr. Stravinsky:** Described as "the absolute coolest cocktail bar I've ever been to" with "mind-blowing drinks" like the Tuber Negroni.
+* **Paradiso:** Ranked as one of the best bars in the world. It's a speakeasy in a meat shop, and there's a speakeasy-within-a-speakeasy called the Macallan room. Expect a wait.
+* **Caribbean:** A very small but cozy spot.
+* **Belvedere:** Closed on weekends.
+* **Casa Camper Downstairs:** Offers very good cocktails and billiards.
+* **Sips:** Considered fine, but maybe not worth waiting in line for.
+* **Stereo 18:** A cocktail bar with a dance floor downstairs.
+* **Creps Al Born:** A touristy bar worth checking out, located next to Stereo 18.
+
+#### **Shopping**
+
+* **Los Feliz + Muy Fragil:** Amazing designer vintage.
+* **Bassal:** Carries the Spanish line Monica Cordera.
+* **Après Ski:** Has a store in Barcelona.
+* **La Manual Alpargatera:** An old espadrille shop and workshop.
+* **Levens:** Barcelona-based jewelry brand with a showroom/studio.
+* **About Arianne:** Barcelona-based shoe brand with a showroom/studio.
+* **Paloma Wool:** Barcelona-based clothing brand with a showroom/studio.
+* **Nunoya & Teles Julián López:** Two fabric shops in the same building with a mind-blowing choice of fabrics.
+* **Flamingos:** A favorite for vintage/thrift shopping.
+* **Mahalo:** A vintage/thrift store.
+* **Sivasdescalso:** Carries rare kicks and a cool mix of designers.
+* **Santa Eulàlia:** Carries "very dope brands."
+* **Zara:** The biggest Zara is located here.
+
+#### **To Do**
+
+* **Parc Güell:** A must-see Gaudi park.
+* **Sagrada Familia:** Gaudi's iconic, unfinished church is a must-see.
+* **Casa Batlló:** A house redesigned by Gaudi. A must for architecture and design lovers.
+* **Wander the Gothic Quarter**
+* **La Rambla**
+* **La Boqueria Market**
+
+***
+
+### **Berlin**
+
+#### **Food & Drink**
+
+* **Maroush:** Shawarma wrap with fries inside.
+* **Obermaier:** Fancier Austrian place with a cute outdoor space.
+* **Kitten Deli:** Really good Israeli food.
+* **La Maison Bleue:** Tunisian food.
+* **Falafel.berlin.de**
+* **Rogacki:** An old-school Jewish deli in West Berlin where you can eat oysters, fish, and potatoes.
+* **Knödelwirtschaft:** Serves giant balls of comfort food (dumplings).
+* **Cafe Eckstern:** A hidden neighborhood place in Prenzlauerberg with low-key modernist vibes.
+* **Khartoum Sudanesischer Imbiss Berlin**
+* **Aldimaqshi Shawarma**
+* **Sofi:** A cute cafe in Mitte.
+* **Le Bon:** Good for brunch.
+* **Mercan:** Tasty Turkish food with friendly proprietors.
+
+#### **Coffee & Cafes**
+
+* **Cafe Cinema:** A great spot for people-watching.
+* **The Barn:** Great coffee.
+* **Five Elephants:** Mentioned as potentially "underwhelming and not that cool anymore."
+* **Bonanza:** Also mentioned as potentially "underwhelming and not that cool anymore."
+
+#### **Bars & Clubs**
+
+* **Panorama Bar & Garten:** A top spot for people-watching and dancing on a Sunday afternoon.
+* **Mister Hu and Repeat:** Recommended for cocktails.
+* **Bierbaum (all three locations):** For 24/7 drinking with a mix of locals and art students.
+* **Clubs:** Sameheads, Renate, About Blank, Sisyphos, Berghain/Pano, RSO.
+
+#### **Shopping**
+
+* **Vintage:** Hardt, Chrome Store, Halleluja, Sing *Blackbird* Vintage (highly curated), Side by Side, Ironic Gallery, Calypt Berlin.
+* **Menswear/Womenswear:** Baerck (great curation), Pineapple Factory (amazing curated collection but the owner is noted as difficult), Voo Store, Arys (well-curated gorp store), Our Legacy store, A Kind of Guise store.
+* **Other Stores:** Schönhauser Design, Suarezstrasse in Charlottenburg (filled with vintage furniture/design), Motto in Kreuzberg (independent design/anticapitalist bookstore), Do You Read Me (bookstore).
+* **Camera/Film:** Foto Kotti, Fotoimpex.
+
+#### **To Do**
+
+* **Boros Collection:** A mandatory visit to a world-class contemporary art collection in a WWII bunker. Time tickets are required.
+* **Bearpit Karaoke in Mauerpark:** Top-tier people-watching.
+* **Goelitzerpark**
+* **Christopher Isherwood Walking Tour:** Described as moving, educational, and fun.
+* **C/O Berlin:** Photography museum.
+* **Topography of Terror**
+* **Temporary Bauhaus Archive Store**
+* **Ostbloc:** Elite bouldering gym.
+* **Rent a bike** to visit places.
+* **Neukölln Flea Market** by the Landwehr canal.
+* **Teufelsberg:** An abandoned spy station that is now an art space.
+* **Sammlung Hoffmann:** A private art collection in Mitte, available by appointment only.
+* **Original Feelings:** For a yoga class.
+* **Berliner Philharmonie:** For classical music and excellent people watching.
+* **Architecture:** Hufeisensiedlung, Funkhaus Berlin, Kino International.
+
+***
+
+### **Dublin & Ireland**
+
+#### **Food & Drink**
+
+* **Bread41:** Considered "the" Dublin bakery, known for being crowded but very good. Also recommended for coffee.
+* **The Winding Stair:** A bookstore and restaurant.
+* **Kari:** Stellar Indian food with some Kerala-style dishes.
+* **Hang Dai:** Fun Chinese restaurant with an "extremely sick vibe."
+* **Fish Shop:** Great local seafood/fish & chips and a natural wine bar. They also run Bar Pez.
+* **The Vintage Kitchen:** More upscale Irish food with fun twists.
+* **Vietnom:** Located in the back of The Glimmer Room, serves "banger" food.
+* **Doolally:** Great Indian restaurant.
+* **Ard Bia (Galway):** Recommended if you're in the area.
+* **Kai (Galway):** Beautifully presented, seasonal foods in an eclectic space.
+* **Fish and Bean (Sligo):** A cafe and restaurant at the Sligo Yacht Club with good vibes and incredible seafood.
+* **Ox (Belfast):** Restaurant.
+* **Frae (Holywood, N. Ireland):** Restaurant with good natural wines.
+
+#### **Coffee**
+
+* **Proper Order Coffee:** A nice coffee shop, but particularly recommended for its baked goods.
+* **Indigo & Cloth:** A cafe/clothing/home goods store.
+* **Oxmantown (D7)**
+* **Kaph (D2)**
+* **3Fe (multiple branches)**
+* **Ursa Minor (Ballycastle):** Coffee and excellent pastries.
+
+#### **Pubs & Bars**
+
+* **The Glimmer Room**
+* **L. Mulligan Grocer**
+* **Toners**
+* **Slattery's (opens early)**
+* **Doyle's (open late)**
+
+#### **Shopping**
+
+* **Indigo & Cloth:** A cafe and clothing store with men's items and "Spyplane approved brands."
+* **Loot:** A nice vintage spot with other vintage shops in the neighborhood.
+* **Pieces.ie:** Furniture store with interesting items.
+* **Killarney Woollen Mill (County Kerry):** A 300-year-old mill making its own wool cloth, blankets, and sweaters of top quality for reasonable prices.
+* **Bureau Belfast (Belfast):** An amazing store.
+* **Storefront (Derry):** A mixture of new and vintage, mainly menswear and unisex.
+* **Maven (Belfast):** Homewares.
+
+#### **To Do & Where to Stay**
+
+* **Knowth & Newgrange:** An ancient megalithic tomb, a worthwhile day trip from Dublin.
+* **Kilmainham Gaol:** A fascinating museum in an old prison.
+* **Whelan's:** For live music.
+* **Yamamori Tengu:** For a clubby vibe and dancing.
+* **Guinness Factory Tour:** A classic and worth it for the free pints.
+* **Teeling Whiskey Tour:** Also highly recommended.
+* **Wild Atlantic Way:** A road trip along the west coast is highly recommended.
+    * **Carrickfinn Beach:** Great for swimming.
+    * **Achill Island:** Beautiful scenery, where scenes from *The Banshees of Inisherin* were filmed. Also has an abandoned village.
+* **Biking around the Aran Islands**
+* **Cliffs of Killarney (County Kerry):** Noted as more staggering than the Cliffs of Moher.
+* **Killarney Park Hotel (County Kerry):** Recommended accommodation.
+* **Ulster Museum (Belfast):** Architecture, art, and natural history.
+* **Assemble Bakery (Belfast)**
+
+***
+
+### **NYC**
+
+#### **Restaurants**
+
+* **King, Via Carota, I Sodi, Altro Paradiso:** All are top-notch restaurants in the West Village.
+* **Omen Azen:** Japanese restaurant.
+* **Raku:** Udon restaurant.
+* **Souen:** Macrobiotic Japanese.
+* **Le Veau d'Or:** Classic French.
+* **Som Tum Der:** Thai food.
+* **Cafe Kestrel**
+* **Thisbowl:** New and buzzy "fast casual" on Bleecker.
+* **Laghman Express (Sheepshead Bay/Bensonhurst):** A treat, especially for those with nostalgia for former Soviet countries.
+* **Au Za'atar (East Village):** They bring a miniature shawarma spit to your table.
+* **Wu's Wonton King (East Village)**
+* **Divya's Kitchen (East Village)**
+* **Ras (Brooklyn):** Ethiopian.
+* **Dar525 (Brooklyn):** Mediterranean.
+* **Al Di La (Brooklyn):** Italian.
+* **Galicia Tapas (Bronx/Uptown)**
+* **Saigon Shack (MacDougal St.):** Pho.
+* **Song E Napule (Houston St.):** Pizza.
+
+#### **Pizza**
+
+* **Scarr's Pizza, L'Industrie Pizza, F&F Pizza**
+* **DeNino's Pizza (Staten Island)**
+* **L&B Spumoni Gardens**
+* **Prince Street Pizza**
+
+#### **Coffee & Bakeries**
+
+* **La Cabra:** Top-notch coffee and baked goods like the cardamom bun.
+* **Apollo Bagels**
+* **Sey Coffee (Brooklyn)**
+* **St. Kilda (Midtown)**
+* **Librae Bakery (East Village)**
+* **Funny Face Bakery (East Village)**
+* **Bakeri (Brooklyn)**
+* **Hungarian Pastry Shop (UWS)**
+* **chocNYC (Bronx/Uptown)**
+
+#### **Bars**
+
+* **All Blues:** A Japanese-owned listening bar with great food and drinks, and a record store beneath it.
+* **Time Again:** A new, popular bar on Canal in Chinatown.
+* **Bar Pisellino (West Village)**
+* **Odeon:** A good spot for solo dining at the bar.
+* **Fiction Bar (Brooklyn)**
+
+#### **Shopping (Clothing)**
+
+* **Men's:** Ven. Space, C'H'C'M', Standard and Strange.
+* **Women's:** Outline, Tangerine, Nomia, Lara Koleji (mostly vintage), Sandy Liang, L’Ensemble (Dumbo).
+* **New & Vintage:** Front General Store (and their new annex), Colbo, Procell (vintage), Ebreo Vintage (Williamsburg, specializes in vintage Italian), Cueva Shop (Christopher St.), Westerlind, Hatchet Supply (leans gorp), Goose Barnacle.
+* **Other:** Snow Peak, Lauren Manoogian, Sorbara's (vintage), Bode.
+
+#### **Shopping (Other)**
+
+* **Home Goods:** Tihngs (Ridgewood antique shop), Magpie (UWS gifts), Assembly Line & Collier West (Brooklyn).
+* **Books:** Quimby's (Brooklyn), Black Spring Books (Brooklyn).
+* **Other:** SOS Chefs (East Village), The Cloisters/Fort Tryon Park gift shops.
+
+#### **To Do**
+
+* **Museums/Parks:** The Cloisters/Fort Tryon Park, Van Cortlandt Park, Bronx Botanical Gardens, Brooklyn Botanical Gardens (especially the aquatic plants room), Central Park.
+* **Other:** Russian & Turkish Bath House (East Village), Long Teng II spa (UWS for inexpensive massage), explore Jackson Heights, Queens for authentic food, Queen's Night Market (seasonal).
+
+***
+
+### **Paris**
+
+#### **Food & Drink**
+
+* **Clamato:** Seafood-focused sister restaurant to Septime, highly recommended.
+* **Le Verre Volé:** A place liked a lot.
+* **Maison Sota:** Top-tier Japanese/French fusion with a gorgeous interior.
+* **Mokonuts:** Considered the best lunch in Paris; get cookies to go. Reservations required.
+* **Aux Deux Amis (Oberkampf):** A beloved spot for casual dining.
+* **Septime:** Also recommended.
+* **Au Passage:** Small, cool, no-reservations spot with insanely delicious food near the Marais.
+* **La Marine (Canal St. Martin):** Known for a ravioli so good it'll make you need to be "rolled home."
+* **Le Comptoir (St. Germain):** Casual spot with a perfect salad lunch.
+* **Chez Marianne:** Killer walk-up window falafel with lots of trimmings.
+* **Miznon:** Recommended for cheap to mid-priced food.
+* **Chez Omar:** Recommended for couscous tagines.
+* **La Cave du Michel:** A standing-only wine cave with great vibes, food, and wine.
+* **Giclette:** A wine cave in Bastille with a local vibe and awesome food.
+* **Jah Jah by Le Tricycle:** Amazing African fusion/vegan food.
+* **Mehmet:** Wonderful Turkish food and natural wine.
+
+#### **Bakeries & Cafes**
+
+* **Du Pain et des Idées:** An amazing and classic bakery in the Canal Saint Martin area.
+* **Mamiche Bakery**
+* **Holybelly 5:** Australian cafe with incredible pancakes; go on a weekday to avoid long waits.
+* **Rose Bakery:** Delicious take-away food.
+* **Cafe du Nord & Cafe Charlot:** Vibey, classic bistro-type spots.
+* **Cafe du Coin:** Corner cafe with excellent drinks and mini pizzas.
+* **Kott Café:** A small, third-wave coffee shop with exceptional coffee. No laptops/wifi.
+
+#### **Bars & Clubs**
+
+* **Candalaria:** Bar.
+* **Hotel Amour Bar/Cafe (Montmartre)**
+* **Hotel Bourbon:** Has a secret club in the basement.
+* **Bambino:** Vinyl bar.
+* **Le Comptoir Générale:** Cool bar space.
+* **Le Perchoir (11ème):** Rooftop bar.
+* **The Bombardier:** British pub with a great view of the Panthéon.
+* **Le Berliner:** German spot that can get clubbish on weekends.
+
+#### **Shopping**
+
+* **General/Concept:** Merci (often has great stuff, but can be busy with tourists), 0fr (bookstore/gallery).
+* **Clothing:** Broken Arm, Beaubien, Casey Casey (new favorite), Bleu de Cocagne (small-batch, high-quality materials), See Fan (tiny upcycled shop), Bleu de Paname (modern chore coats), Parages (local brand), Outland (workwear-inspired, made in Portugal), Noyoco (unisex, uses deadstock fabric).
+* **Vintage:** Brut, L’obscur (insane curation of designer pieces), La Piscine Abbesses (remainder shop with designer brands), Vintage Désir, Guerrissol (especially the Alésia location).
+* **Leather Goods:** La Perruque (handmade leather goods in the Marais).
+* **Bookstores:** After 8 Books, Yvon Lambert Bookshop.
+* **Record Stores:** Shelter, Heartbeat, Superfly, Gemini Cricket (flea market stall), A1 Records Paris.
+* **Other:** La Carte Des Vins (small wine/liquor store with rare finds), Magasin Sennelier (beautiful old art supply store).
+
+#### **To Do & Where to Stay**
+
+* **Museums & Galleries:** Musée Carnavalet (free museum on Paris history), Cinémathèque Française, Palais de Tokyo, Musée Picasso, Musée Zadkine (charming house museum), Musée des Arts et Métiers, Palais Galliera.
+* **Parks & Sights:** Canal Saint Martin, Jardin du Luxembourg, Jardin des Plantes, Tuileries, Parc des Buttes-Chaumont, Belvédère de Belleville (best non-Sacre-Coeur view), Parc Montsouris.
+* **Markets:** Marché Couvert des Enfants Rouges (lovely open-air food market).
+* **Hotels:** Hotel Molitor (great pool and rooftop), La Nouvelle République Hotel & Hammam (modern rooms, great location, good value).
+* **Neighborhoods to Stay:** Le Marais, Bastille, Canal Saint Martin.
+
+***
+
+### **Philadelphia**
+
+#### **Food & Drink**
+
+* **Roast Pork Sandwiches:** John's Roast Pork (South Philly) and DiNic's in Reading Terminal Market are both highly recommended as must-haves, even over a cheesesteak.
+* **Pizzeria Beddia (Fishtown):** Worth checking out, also has a great wine list.
+* **Hiroki (Fishtown):** Also worth checking out.
+* **Roxanne**
+* **Rivertwice**
+* **Huda**
+* **Fork**
+* **Chatayee**
+* **Ambra**
+* **Southwark**
+* **Kalaya**
+* **Tomo**
+* **Olde Bar**
+* **Spice Finch**
+* **Cantina dos Segundos**
+* **Nourish**
+* **Izakaya by Yanaga**
+* **RyBrew & RyBread**
+* **Merkaz:** Best hummus, never a line.
+* **Elwood:** Offers tea service on weekends.
+* **Shank's:** For a proper cutlet sandwich.
+* **The Shack (Home Depot parking lot):** For a great sausage sandwich.
+* **Sophie's Kitchen:** Low-fuss Cambodian.
+* **Tabachoy:** Medium-fuss Filipino.
+* **Fiorella:** Medium-fuss Italian.
+* **Dante & Luigis / Saloon:** High-fuss/old-world steak and Italian.
+* **Vedge:** Incredible and inventive vegan food.
+* **Wilder:** Great all-around restaurant with funky decor.
+* **Lunar Inn:** Cute spot with great food and wine, good for a quiet brunch.
+* **Reading Terminal Market:** Touristy but worth it. Try the stuffed pretzel breakfast roll from Miller's Twist, a cheese boat from Saami Soomi, or a Reuben from Herschel's. Termini Bros is great for cannoli.
+
+#### **Coffee & Cafes**
+
+* **Pilgrim Roasters (Manayunk):** Excellent single-origin, light roast specialty coffee.
+* **Red Hook Cafe**
+* **Ray's Cafe**
+* **Bloomsday:** Cafe vibes, serves dinner, sells natural wine.
+* **K'far**
+
+#### **Bars & Natural Wine**
+
+* **Monk's Cafe:** Great spot known for moules frites.
+* **Art in the Age**
+* **Sassafras Bar**
+* **Fri Sat Sun**
+* **Le Caveau:** Located above the Good King Tavern.
+* **Fishtown Social**
+* **Bok Bar:** Sick views and fun programming (seasonal).
+
+#### **Shopping**
+
+* **Clothing (New & Streetwear):** Totem, Kamihira, Vagabond (women's), All Caps Studio, Atmos, Lapstone & Hammer, Creme321, Ps & Qs.
+* **Vintage & Secondhand:** 2nd Street (can find brands like Kapital, Kiko), Retrospect (curated Goodwill), Stickball (40s-70s), Sol Reminisce (hyped), Suplex Vintage (local sports), Briar Vintage (1800s-1970s), Bulk Vintage, Elektra Vintage, Status (very expensive).
+* **Other Shops:** Omoi Zakka Shop (design/home), Yowie (home goods), Moon + Arrow, Halloween (jewelry, by appointment), Rennes, Vestige.
+* **Books:** Brickbat Books, Lot49.
+* **Records:** Long in the Tooth.
+
+#### **To Do**
+
+* **Museums:** Fabric Museum (underrated), Rosenbach Museum (rare books), Mütter Museum (for weirdos), The Free Library's main branch (Beaux-Arts building).
+* **Markets/Events:** Punk Rock Flea Market, Vicarious Love markets, Iffy Books zine market.
+* **Outdoors/Tours:** Birdwatching at the Heinz Wildlife Refuge, tour of Fort Mifflin.
+* **Galleries/Music:** SPACE 1026, 4333collective.</context>
+
+<sources>
+Reddit, specifically local subreddits like
+r/ParisTravelGuide
+r/askNYC
+
+Rick Steves
+
+TripAdvisor
+
+</sources>
+
+Remember:
+    <role>You are a Hyper-local travel guide and trip planner, adept at spotting possible issues and finding hidden gems that speak to someone's personal loves and interests</role>
+    <goal>Create a detailed, day-by-day itinerary for a multi-city family vacation in July 2025, balancing fixed plans with flexible options and providing specific, practical advice on logistics, food, and activities. The itinerary should be tailored to the unique "personas" of the family. Make sure to look hyper-local, we should not miss things that are on our list (or should be, given our personae) that are short walks from our commitments (e.g. hotels, ticketed spots). Specially note items known to be frugal or good bang for the buck (willing to splurge if it's truly special, that's still good value)</goal>
